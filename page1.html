@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <h2>학생 정보 입력</h2>
+
+  <form method="get" action="link.jsp"><!--action에는 jsp문서밖에 연결이안됨-->
+  성명: <input type="text" name="name"><p>
+  학번: <input type="text" name="studentNum"><p>
+  성별: 남자 <input type="radio" name="sex" value="man" checked>
+         여자 <input type="radio" name="sex" value="woman"><p>
+  국적 : <select name="country">
+  <option SELECTED value="대한민국">대한민국</option>
+   <option value="일본">일본</option>
+   <option value="중국">중국</option>
+   <option value="터키">터키</option>
+   <option value="태국">태국</option>
+   </select><p>
+   <input type = "submit" value="보내기"> <!--action의 문서로 연결이됨! html은 문서간의 연결이 불가해서 jsp가 대신 수행해줌-->
+   </form>
+ </body>
+</html>

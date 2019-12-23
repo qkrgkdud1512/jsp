@@ -1,0 +1,4 @@
+localhost:8080/CAT/(파일명).html
+127.0.0.1:8080  ==>같은거임
+
+http://localhost:8080/CAT/aa2(파일명).jsp ==>jsp파일 여는방법
